@@ -2,22 +2,22 @@
 
  services:
    table_frontend:
-     build: ./table_frontend
+     build: ./
      image: mark2024/table_frontend
      ports:
        - 8000:8000 
    api-usuarios:
-     build: ./api-usuarios
+     build: ./
      image: mark2024/api-usuarios
      ports:
        - 8001:8001
    api-productos:
-     build: ./api-productos
+     build: ./
      image: mark2024/api-productos
      ports:
        - 8002:8002
    api-pedidos:
-     build: ./api-pedidos
+     build: ./
      image: mark2024/api-pedidos
      ports:
        - 8003:8003     
